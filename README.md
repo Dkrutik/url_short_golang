@@ -23,7 +23,7 @@ curl -X POST http://localhost:8080/shorten -H "Content-Type: application/json" -
 The response will contain a JSON object with the shortened URL:
 
 {
-    "short_url": "https://www.linkedin.com/in/iamprince/"
+    "short_url": "https://www.linkedin.com/in/rutik-dike-53280522a/"
 }
 Redirecting to the Original URL
 To redirect to the original URL, visit the shortened URL in your browser or send a GET request to the /redirect/{id} endpoint, where {id} is the shortened URL ID:
